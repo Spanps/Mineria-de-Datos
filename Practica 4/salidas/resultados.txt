@@ -1,0 +1,10 @@
+Resultados
+
+Se evaluaron dos comparaciones sobre el dataset de huracanes del Atlántico. 
+El objetivo fue comprobar si existían diferencias relevantes entre los grupos analizados. Los datos se revisaron para identificar si las distribuciones cumplían con los supuestos necesarios para aplicar pruebas paramétricas; como no se cumplieron, se eligió la prueba no paramétrica de Kruskal-Wallis para ambos casos.
+
+En el primer análisis se comparó la presión mínima registrada según el tipo de tormenta: TD, TS y HU. Los resultados muestran que la presión media fue mayor en TD (1007.58), seguida por TS (999.20) y luego HU (969.56). La mediana también reflejó esta tendencia: TD = 1008.0, TS = 1000.0 y HU = 973.0. La diferencia entre grupos fue significativa y de gran magnitud, con un efecto de epsilon² = 0.744. Las comparaciones por pares también fueron significativas entre TD vs TS, TD vs HU y TS vs HU. Esto indica que la presión mínima distingue claramente los tres tipos de tormenta.
+
+En el segundo análisis se comparó el viento máximo por tormenta según la época: 1851-1899, 1900-1949, 1950-1999 y 2000-2017. Las medianas fueron 70.0, 70.0, 55.0 y 60.0 respectivamente, y las medias fueron 75.74, 71.84, 61.71 y 68.00. La diferencia entre épocas fue estadísticamente significativa, aunque el efecto fue pequeño (epsilon² = 0.058). La comparación más cercana entre grupos ocurrió entre 1900-1949 y 2000-2017, con p = 0.0475. En general, se observan diferencias significativas en el viento máximo según la época, pero con menor magnitud que en la presión mínima.
+
+En ambos análisis mostraron diferencias estadísticamente significativas entre grupos. La presión mínima según el tipo de tormenta presentó un efecto más fuerte, mientras que el viento máximo según la época mostró una diferencia significativa pero menos intensa.
